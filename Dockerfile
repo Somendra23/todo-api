@@ -17,4 +17,5 @@ WORKDIR ${APP_HOME}
 EXPOSE 8080
 
 # Run application with java -jar
+# CMD what the difference
 ENTRYPOINT ["java", "-jar", "todo-1.0.0.jar"]
